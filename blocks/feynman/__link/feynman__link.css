@@ -7,4 +7,11 @@
   line-height: 51px;
   z-index: 3;
   color: #2f80ed;
+  opacity: 1;
+  transition: linear 0.5s;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
+  transition: linear 1s;
 }
